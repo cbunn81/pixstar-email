@@ -6,6 +6,9 @@ build-backend = "setuptools.build_meta"
 line-length = 90
 preview = true
 
+[tool.isort]
+profile = "black"
+
 [tool.mypy]
 mypy_path = "src"
 check_untyped_defs = true
